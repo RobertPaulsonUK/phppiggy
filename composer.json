@@ -1,0 +1,18 @@
+{
+    "name": "a12345/phppiggy",
+    "description": "A PHP pplication for tracking expenses",
+    "type": "project",
+    "authors": [
+        {
+            "name": "RobertPaulsonUK",
+            "email": "sanya.bendov1999@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload" : {
+        "psr-4": {
+            "Framework\\" : "src/Framework",
+            "App\\" : "src/App"
+        }
+    }
+}
